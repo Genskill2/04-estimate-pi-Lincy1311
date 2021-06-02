@@ -4,6 +4,37 @@
 #include <math.h>
 
 float mc_pi(int);
+float mc_pi(int n)
+
+{ int circle = 0;
+
+   int square = 0;
+
+   float x,y;
+
+   for(int i=1;i<=n;i++)
+
+   { x=frandom();
+
+      y=frandom();
+
+      if(((xx)+(yy))<=1)
+
+      {   circle++;    }
+
+      else
+
+      {   square++;  }
+
+    }
+
+    square=square + circle;
+
+    float pi = 4*(float)circle/square;
+
+    return pi;
+
+}
 
 float frandom() {
   long int q = random();
