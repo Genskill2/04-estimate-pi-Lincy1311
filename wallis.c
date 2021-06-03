@@ -61,6 +61,7 @@ float wallis_pi(int n)
    }
 
    val=2*sum;
+   return val;
 
    
 
