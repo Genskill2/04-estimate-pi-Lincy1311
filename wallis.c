@@ -62,7 +62,7 @@ float wallis_pi(int n)
 
    val=2*sum;
 
-   printf("%.2f",val);
+   
 
    
 
