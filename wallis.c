@@ -47,6 +47,6 @@ float wallis_pi(int n)
 
    printf("%.2f",val);
 
-   return 0;
+   
 
 }
