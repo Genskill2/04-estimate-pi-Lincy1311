@@ -42,7 +42,7 @@ int main(void) {
 
 }
 
-int main(int n)
+float wallis_pi(int n)
 
 {  int i;
 
@@ -64,7 +64,7 @@ int main(int n)
 
    printf("%.2f",val);
 
-   return 0;
+   
 
 }
 
