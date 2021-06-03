@@ -22,6 +22,7 @@ int main()
 
    printf("%.2f",val);
 
-   return 0;
+   
+ 
 
 }
