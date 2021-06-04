@@ -39,15 +39,16 @@ int main(void) {
 
 float wallis_pi(int n)
 
-{  int i;
-   float temp,val,sum=1;
-   for(i=1;i<n;i++)
-   {  temp=(4*i*i)/((4*i*i)-1.0);
-      
+{  
+   float pi=1.0;
+   for(int i=1;i<n;i++)
+   {  
+      float num = 4.0*i*i;
+     pi* = num/(num-1);
 
    }
-   val=2*sum;
-   return val;
+   
+   return pi*2;
 }
 
 
