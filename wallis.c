@@ -1,9 +1,6 @@
 #include <assert.h>
-
 #include <stdlib.h>
-
 #include <stdio.h>
-
 #include <math.h>
 
 float wallis_pi(int);
@@ -11,9 +8,7 @@ float wallis_pi(int);
 int main(void) {
 
   float pi;
-
   for (int i=0; i<5; i++) {
-
     pi = wallis_pi(i);
 
     if (!(fabs(pi - M_PI) > 0.15)) {
@@ -45,28 +40,14 @@ int main(void) {
 float wallis_pi(int n)
 
 {  int i;
-
    float temp,val,sum=1;
-
-   
-
-
-
    for(i=1;i<=n;i++)
-
    {  temp=(4*i*i)/((4*i*i)-1.0);
-
-      sum=sum*temp;
+      
 
    }
-
    val=2*sum;
    return val;
-
-   
-
-   
-
 }
 
 
