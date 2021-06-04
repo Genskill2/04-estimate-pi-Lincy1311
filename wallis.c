@@ -41,7 +41,7 @@ float wallis_pi(int n)
 
 {  int i;
    float temp,val,sum=1;
-   for(i=1;i<=n;i++)
+   for(i=1;i<n;i++)
    {  temp=(4*i*i)/((4*i*i)-1.0);
       
 
