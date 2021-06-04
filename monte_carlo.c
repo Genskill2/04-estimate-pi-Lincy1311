@@ -83,7 +83,7 @@ float mc_pi(int n)
 
       y=frandom();
 
-      if(((x)+(y))<=1)
+      if(((x*x)+(y*y))<=1)
 
       {   circle++;    }
 
